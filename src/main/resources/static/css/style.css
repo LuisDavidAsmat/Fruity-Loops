@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+main h1 
+{
+    color: #EF8080;
+    font-size: 3rem;
+}
+
+table 
+{
+    width: 30rem;
+    border-collapse: collapse;
+}
+
+thead
+{
+    border-top: 1.438rem solid #ffb6c1;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+tbody 
+{
+    border-bottom: 1.438rem solid #ffb6c1;
+    font-size: 1.08rem;
+}
+
+thead, tbody
+{
+    border-inline: 1.438rem solid #ffb6c1; 
+}
+
+th, td 
+{
+    padding: 1rem .5rem;
+    border-bottom: 0.085rem solid #ffb6c1;
+    
+}
